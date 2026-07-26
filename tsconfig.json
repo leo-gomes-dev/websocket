@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Layout de Arquivos */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Configurações do Ambiente */
+    "module": "NodeNext",
+    "moduleResolution": "nodenext", // Atualizado para funcionar no TypeScript 7.0
+    "target": "ES2022",
+    "esModuleInterop": true,
+
+    /* Outras Saídas */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Checagem de Tipos Estrita */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Opções Recomendadas/Ajustadas */
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
